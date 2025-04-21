@@ -1,5 +1,5 @@
 # **Tarefa de Revisão: Mira Certeira**
-<p align="justify"> Esta tarefa implementa um jogo de tiro ao alvo, utilizando o microcontrolador Raspberry Pi Pico W, botão B e do joystick, LEDs endereçáveis WS2812, LED RGB, display OLED ssd1306 e joystick. O objetivo é revisar os conceitos aprendidos durante a 1ª fase da Residência de Embarcados Embarcatech. </p>
+<p align="justify"> Esta tarefa implementa um jogo de tiro ao alvo onde o jogador utiliza um joystick para mover a mira (um quadrado de 8x8 pixels) e acertar alvos posicionados aleatoriamente na tela OLED. O jogo fornece feedback visual e sonoro a cada tentativa e exibe a pontuação do jogador em tempo real. Utilizando o microcontrolador Raspberry Pi Pico W, botão B e do joystick, LEDs endereçáveis WS2812, LED RGB, display OLED ssd1306 e joystick. O objetivo é revisar os conceitos aprendidos durante a 1ª fase da Residência de Embarcados Embarcatech. </p>
 
 ## **Funcionalidades**
 - Mobilidade da mira com o joystick;
