@@ -90,8 +90,8 @@ int main()
 bool verifica_acerto(){
     printf("Pos X: %d\n",pos_x);
     printf("Pos Y: %d\n",pos_y);
-    printf("Pos Alvo X: %d\n",pos_alvo[pos_atual*2]);
-    printf("Pos Alvo Y: %d\n",pos_alvo[(pos_atual*2)+1]);
+    printf("Pos Alvo X: %d\n",pos_alvo[pos_atual*2]-6);
+    printf("Pos Alvo Y: %d\n",pos_alvo[(pos_atual*2)+1]-6);
     if (dificil)
     {
         if (pos_x == pos_alvo[pos_atual*2] - 6 && pos_alvo[pos_atual*2+1] -6 == pos_y && strike)
